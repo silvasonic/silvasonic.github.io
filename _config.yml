@@ -1,7 +1,7 @@
 # Setup
-title: Poole
-tagline: The Jekyll Butler
-url: https://getpoole.com
+title: Silvasonic
+tagline: I'm Doing Sidequests
+url: https://silvasonic.github.io
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -33,9 +33,9 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Pablo Silva
+  url: https://silvasonic.com
+  email: pablo@silvasonic.com
 
 # Custom vars
 version: 3.0.0
