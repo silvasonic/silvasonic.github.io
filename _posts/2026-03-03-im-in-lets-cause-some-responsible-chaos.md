@@ -34,7 +34,7 @@ Call me paranoid, but I also created two separate virtual credit card numbers fo
 
 I wanted full environment separation, so I dusted off an old [Google Pixel](https://store.google.com/category/phones) phone, grabbed a [Tello](https://tello.com/buy/custom_plans) eSIM ($5/month,) and connected [OpenClaw](https://openclaw.ai/) to [WhatsApp](https://www.whatsapp.com/) — all through the CLI, including nifty QR code generation right on the terminal. [OpenClaw](https://openclaw.ai/) itself was running on a fresh [Windows](https://www.microsoft.com/windows) 11 Pro install on an old [Microsoft Surface](https://www.microsoft.com/surface) laptop (great machines, by the way — Redmond's best synthesis of [Vaio](https://www.sony.com/en/SonyInfo/design/gallery/), [ThinkPad](https://www.ibm.com/history/thinkpad), and [MacBook](https://www.apple.com/macbook) DNA.)
 
-One gotcha: finding [WhatsApp](https://www.whatsapp.com/) group IDs is non-trivial. They look like 120363023456789012@g.us, not phone numbers — and they're not surfaced anywhere obvious ("[openclaw gateway start --verbose](https://docs.openclaw.ai/cli/gateway)" can help catch those IDs).
+One gotcha: finding [WhatsApp](https://www.whatsapp.com/) group IDs is non-trivial. They look like 120363023456789012@g.us, not phone numbers — and they're not surfaced anywhere obvious ([`openclaw gateway start --verbose`](https://docs.openclaw.ai/cli/gateway) can help catch those IDs).
 
 **Claudio Claw, The Friendly Neighborhood Bot**
 
