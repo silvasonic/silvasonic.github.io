@@ -6,6 +6,13 @@ paginate: 5
 baseurl: ""
 permalink: pretty
 
+# Defaults
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+
 # Gems
 plugins:
   - jekyll-gist
