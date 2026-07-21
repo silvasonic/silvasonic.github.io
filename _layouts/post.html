@@ -5,7 +5,7 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
   {% if page.image %}
-    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+  <img src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}">
   {% endif %}
   {{ content }}
 </article>
