@@ -1,4 +1,7 @@
-# The Wizard of Rio de Janeiro
+---
+layout: post
+title: The Wizard of Rio de Janeiro
+---
 
 ![Guilherme Reis at Discover Studios in Rio de Janeiro](/assets/images/wizard/guilherme-reis-discover-studios.webp)
 *(Guilherme Reis at Discover Studios in Rio de Janeiro. Photo courtesy of [Backstage](https://www.revistabackstage.com.br) magazine)*
@@ -8,16 +11,16 @@
 His record—whether he cared for awards or not—stands as:
 
 **2002 Latin GRAMMY Awards**
-Category: Album of the Year
-Project: [*Jobiniando*](https://open.spotify.com/album/0r7gzzwkgITzKxVeh58CaL?si=WVUzUcy3TXWV7si8tcbYNQ) ([Ivan Lins](https://open.spotify.com/artist/64neTfIIdYKNhJ9zxoz3jF?si=-II3REmoTwCNDQSW0zMgkA))
-Role: Recording / Mixing Engineer
-Result: **Nominated**
+- Category: Album of the Year
+- Project: [*Jobiniando*](https://open.spotify.com/album/0r7gzzwkgITzKxVeh58CaL?si=WVUzUcy3TXWV7si8tcbYNQ) ([Ivan Lins](https://open.spotify.com/artist/64neTfIIdYKNhJ9zxoz3jF?si=-II3REmoTwCNDQSW0zMgkA))
+- Role: Recording / Mixing Engineer
+- Result: **Nominated**
 
 **2011 Latin GRAMMY Awards**
-Category: Best Samba/Pagode Album
-Project: [*Exaltasamba 25 Anos – Ao Vivo*](https://open.spotify.com/album/1rMqTbwki2gVgD7mfgkIpK?si=mF1I9BdwTOmIK_d-zWQVTA) ([Exaltasamba](https://open.spotify.com/artist/6VPRGmbZ0dupZrbwwEDRRw?si=D9faEZ7TSQWzqistZ2FWuQ))
-Role: Recording / Mixing Engineer
-Result: **Winner**
+- Category: Best Samba/Pagode Album
+- Project: [*Exaltasamba 25 Anos – Ao Vivo*](https://open.spotify.com/album/1rMqTbwki2gVgD7mfgkIpK?si=mF1I9BdwTOmIK_d-zWQVTA) ([Exaltasamba](https://open.spotify.com/artist/6VPRGmbZ0dupZrbwwEDRRw?si=D9faEZ7TSQWzqistZ2FWuQ))
+- Role: Recording / Mixing Engineer
+- Result: **Winner**
 
 ---
 
@@ -46,7 +49,7 @@ I ended up moving to New York City in the mid-’90s after graduating high schoo
 
 I remember one year he took a detour with me right at the lobby of the convention center as we were about to walk in. Instead we ended up drinking at a nearby pub. I’m not sure if he was nervous, afraid to go in or just didn’t like trade shows. He said something like, “this is all sort of bullshit anyway. I’d much rather spend time with you” or something along those lines.
 
-We finally made it to the convention the next morning and I remember being greeted by Digidesign employees as we walked toward their booth. One of their engineers saw us, his face lit up and he said, “the wizard has arrived!”[^1] as he ushered my father to check out the latest and greatest audio gear.
+We finally made it to the convention the next morning and I remember being greeted by Digidesign employees as we walked toward their booth. One of their engineers saw us, his face lit up and he said, “the wizard has arrived!” as he ushered my father to check out the latest and greatest audio gear.
 
 I remember watching the whole thing and feeling incredibly proud of him. Up until that point I guess I thought my father was just a nameless Brazilian recording engineer who was crazy (or stupid) enough to give Pro Tools a try in the ‘90s – without manuals or the Internet.
 
@@ -54,4 +57,4 @@ But that day at Javits Center I finally realized my father was one of the people
 
 A lot happened after those early AES days. For one, MP3s and Napster put a squeeze on the global recording industry, CDs and cassettes became a thing of the past, and Pro Tools a household name among musicians at least, but I will never forget the day I finally realized my father was a wizard, a digital recording wizard.
 
-[^1]: I guess the wizard nickname stuck, at least at Digidesign, because years later my younger brother Lucas witnessed a similar celebrity-like reception at AES. He was probably too young back then to spend that first day at the Irish pub across from the Javits Center though.
+PS: I guess the wizard nickname stuck, at least at Digidesign, because years later my younger brother Lucas witnessed a similar celebrity-like reception at AES. He was probably too young back then to spend that first day at the Irish pub across from the Javits Center though.
