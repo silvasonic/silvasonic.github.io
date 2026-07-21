@@ -3,7 +3,7 @@ layout: post
 title: The Wizard of Rio de Janeiro
 ---
 
-![Guilherme Reis at Discover Studios in Rio de Janeiro](/assets/images/wizard/guilherme-reis-discover-studios.webp)
+![Guilherme Reis at Discover Studios in Rio de Janeiro](/assets/images/2022-03-11-the-wizard-of-rio-de-janeiro-guilherme-reis.webp)
 *(Guilherme Reis at Discover Studios in Rio de Janeiro. Photo courtesy of [Backstage](https://www.revistabackstage.com.br) magazine)*
 
 **Update**: My brother and I ended up finding out that not only was our father a Latin GRAMMY-nominated recording engineer, but that he had actually won an award in 2011 after his passing. We contacted the Latin Recording Academy, but learned that replacement physical awards and certificates can only be requested by active industry entities or primary participants.
@@ -38,7 +38,7 @@ If you know anything about recording, I’m talking circa 1994 Digidesign Pro To
 
 My father — and a troupe of like-minded engineers, producers, artists and friends — flourished at Discover. Between 1994 and 2007, when the studio finally closed its doors, my father recorded everyone from Ricky Martin to Paul Simon, Brazilian heavyweights like Djavan, Chico Buarque and Tom Jobim and a wave of new Brazilian pop and rock acts, winning awards and breaking new ground when it came to creating music.
 
-![Guilherme Reis and Ricky Martin at Discover Studios](/assets/images/wizard/guilherme-reis-ricky-martin-discover-studios.webp)
+![Guilherme Reis and Ricky Martin at Discover Studios](/assets/images/2022-03-11-the-wizard-of-rio-de-janeiro-ricky-martin.webp)
 *(Guilherme Reis and Ricky Martin at Discover Studios. Photo courtesy of [Backstage](https://www.revistabackstage.com.br/) magazine)*
 
 I remember going to one of the bathrooms in the studio once and passing by a room where a golden statuette — which I can only assume was an important industry award — was being used as a doorstop. For someone who was a GRAMMY-nominated recording engineer, he never really paid much attention to shiny objects.
