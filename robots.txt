@@ -1,0 +1,39 @@
+User-Agent: *
+Allow: /
+
+User-Agent: facebookexternalhit
+User-Agent: Facebot
+User-Agent: Twitterbot
+User-Agent: LinkedInBot
+User-Agent: Slackbot-LinkExpanding
+User-Agent: Discordbot
+User-Agent: WhatsApp
+Allow: /
+
+User-Agent: OAI-SearchBot
+User-Agent: ChatGPT-User
+User-Agent: PerplexityBot
+User-Agent: Perplexity-User
+User-Agent: Claude-User
+User-Agent: Claude-SearchBot
+User-Agent: Googlebot
+User-Agent: Bingbot
+User-Agent: Applebot
+Allow: /
+
+User-Agent: GPTBot
+User-Agent: Google-Extended
+User-Agent: ClaudeBot
+User-Agent: anthropic-ai
+User-Agent: Claude-Web
+User-Agent: CCBot
+User-Agent: Applebot-Extended
+User-Agent: Bytespider
+User-Agent: Meta-ExternalAgent
+User-Agent: FacebookBot
+User-Agent: Diffbot
+User-Agent: Omgilibot
+User-Agent: ImagesiftBot
+Disallow: /
+
+Sitemap: https://silvasonic.com/sitemap.xml
