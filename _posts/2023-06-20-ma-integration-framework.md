@@ -1,6 +1,6 @@
 ---
 layout: post
-title: M\&A Integration Framework
+title: M&A Integration Framework
 ---
 
 This was [originally posted on my LinkedIn profile](https://www.linkedin.com/posts/pablosilva_ma-integration-framework-activity-6990709749616898049-NXcs), but I’m reposting it here, now that I have a “permanent” home on the web again.
