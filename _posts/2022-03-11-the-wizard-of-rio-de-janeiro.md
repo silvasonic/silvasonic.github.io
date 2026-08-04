@@ -57,4 +57,6 @@ But that day at Javits Center I finally realized my father was one of the people
 
 A lot happened after those early AES days. For one, MP3s and Napster put a squeeze on the global recording industry, CDs and cassettes became a thing of the past, and Pro Tools a household name among musicians at least, but I will never forget the day I finally realized my father was a wizard, a digital recording wizard.
 
+---
+
 PS: I guess the wizard nickname stuck, at least at Digidesign, because years later my younger brother Lucas witnessed a similar celebrity-like reception at AES. He was probably too young back then to spend that first day at the Irish pub across from the Javits Center though.
