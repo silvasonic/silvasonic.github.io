@@ -15,7 +15,7 @@ title: Home
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
     {% if post.image %}
-      <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}">
+      <img src="{{ post.image | relative_url }}"{% if post.image_width %} width="{{ post.image_width }}" height="{{ post.image_height }}"{% endif %} alt="{{ post.title | escape }}">
     {% endif %}
     
     {{ post.content }}

@@ -2,6 +2,8 @@
 layout: post
 title: "\"I'm in. Let's Cause Some Responsible Chaos\""
 image: /assets/images/2026-03-03-im-in-lets-cause-some-responsible-chaos.jpg
+image_width: 768
+image_height: 576
 ---
 
 It rained in Miami this past weekend. Not the usual 20-minute afternoon tropical storm kind, but the all-day, not-going-anywhere kind. So, I did what anyone would do with a rainy weekend and time to kill. I went down the [OpenClaw](https://openclaw.ai/) rabbit hole. Here's what happened.
