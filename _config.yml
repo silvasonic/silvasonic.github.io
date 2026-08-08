@@ -3,6 +3,7 @@ title: Silvasonic
 tagline: I'm Doing Side Quests
 url: https://silvasonic.github.io
 paginate: 5
+paginate_path: "/page/:num/" # matches the WordPress URL shape; default is /page:num/
 baseurl: ""
 permalink: pretty
 
