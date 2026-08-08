@@ -126,7 +126,11 @@ const records = posts
   .map((p) => {
     const title = decode(p.title.rendered);
     const slug = slugify(title);
+    // Every other filename component is sanitised (slug to [a-z0-9-], ext to
+    // [a-zA-Z0-9]), but the date comes from the API verbatim and is joined onto
+    // a write path - so validate it rather than trusting the response shape.
     const date = p.date.slice(0, 10);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) throw new Error(`unexpected date for "${p.slug}": ${JSON.stringify(p.date)}`);
     const srcs = [...p.content.rendered.matchAll(/<img[^>]*\ssrc="([^"]+)"/g)].map((m) => m[1]);
     const images = srcs.map((url, i) => {
       const ext = extOf(url);
