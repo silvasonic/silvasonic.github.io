@@ -2,7 +2,7 @@
 //
 //   node _scripts/migrate.mjs [--md-only]
 //
-// Env overrides: WP_SITE, WP_CATEGORY_ID, OUT_IMAGES, OUT_MARKDOWN
+// Env overrides: WP_SITE, WP_CATEGORY_SLUG, OUT_IMAGES, OUT_MARKDOWN
 // No npm dependencies; needs Node 18+ for global fetch.
 //
 // NOTE: this writes frontmatter WITHOUT image_width/image_height. Run
@@ -15,7 +15,10 @@ import { fileURLToPath } from 'node:url';
 const REPO = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 
 const SITE = process.env.WP_SITE || 'https://www.silvasonic.com';
-const CATEGORY_ID = process.env.WP_CATEGORY_ID || '5'; // 5 = Photos
+// Slug drives both the crawl path and the API lookup - passing only an id would
+// crawl /category/photos/ while querying a different category, and abort on the
+// mismatch check below.
+const CATEGORY_SLUG = process.env.WP_CATEGORY_SLUG || 'photos';
 const IMAGES_DIR = process.env.OUT_IMAGES || join(REPO, 'assets', 'images');
 const MARKDOWN_DIR = process.env.OUT_MARKDOWN || join(REPO, '_posts');
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
@@ -68,12 +71,21 @@ async function pool(items, limit, worker) {
   return out;
 }
 
+// ------------------------------------------------------- Step 0: resolve category
+const catRes = await get(`${SITE}/wp-json/wp/v2/categories?slug=${CATEGORY_SLUG}&_fields=id,name,slug,count`);
+if (!catRes.ok) throw new Error(`category lookup failed: HTTP ${catRes.status}`);
+const [category] = JSON.parse(catRes.body);
+if (!category) throw new Error(`no category with slug "${CATEGORY_SLUG}"`);
+const CATEGORY_ID = category.id;
+console.log(`Category "${category.name}" (slug ${category.slug}, id ${CATEGORY_ID}) - ${category.count} posts\n`);
+
 // ---------------------------------------------------------------- Step 1: crawl
 // The category pages are crawled only to cross-check the API result below.
 console.log('Step 1: crawling category pages...');
 const crawled = [];
 for (let page = 1; page <= 50; page++) {
-  const url = page === 1 ? `${SITE}/category/photos/` : `${SITE}/category/photos/page/${page}/`;
+  const base = `${SITE}/category/${CATEGORY_SLUG}`;
+  const url = page === 1 ? `${base}/` : `${base}/page/${page}/`;
   const res = await get(url);
   if (!res.ok) {
     console.log(`  page ${page}: HTTP ${res.status} - end of pagination`);

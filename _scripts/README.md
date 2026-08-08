@@ -19,7 +19,7 @@ node _scripts/verify.mjs
 
 All three accept `OUT_IMAGES` and `OUT_MARKDOWN` env vars to target directories
 other than `assets/images` and `_posts`. `migrate.mjs` also takes `WP_SITE` and
-`WP_CATEGORY_ID`.
+`WP_CATEGORY_SLUG`.
 
 ## Adding a post by hand
 
@@ -36,7 +36,7 @@ skipped, so re-running it is always safe.
 ## Migrating another WordPress category
 
 ```sh
-WP_CATEGORY_ID=7 node _scripts/migrate.mjs
+WP_CATEGORY_SLUG=videos node _scripts/migrate.mjs
 node _scripts/add-dimensions.mjs
 node _scripts/verify.mjs
 ```

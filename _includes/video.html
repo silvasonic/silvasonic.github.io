@@ -1,0 +1,13 @@
+{%- comment -%}
+Self-hosted video.
+
+  {% include video.html src="/assets/images/clip.mp4" poster="/assets/images/clip.png" width="640" height="640" %}
+
+width/height are the intrinsic pixel dimensions - they reserve space before the
+poster loads, same reason the images carry them. preload="metadata" keeps index
+pages from pulling the whole file for every video on the page.
+{%- endcomment -%}
+<video src="{{ include.src | relative_url }}"
+       {% if include.poster %}poster="{{ include.poster | relative_url }}"{% endif %}
+       width="{{ include.width }}" height="{{ include.height }}"
+       controls{% if include.loop %} loop{% endif %} playsinline preload="metadata"></video>

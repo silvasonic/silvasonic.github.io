@@ -40,6 +40,27 @@ img {
   border-radius: var(--border-radius);
 }
 
+video {
+  display: block;
+  max-width: 100%;
+  height: auto; // as with img, required alongside the width/height attributes
+  margin-bottom: var(--spacer);
+  border-radius: var(--border-radius);
+}
+
+// Wrapper sets aspect-ratio inline so the embed reserves space before it loads.
+.video-embed {
+  margin-bottom: var(--spacer);
+
+  iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: var(--border-radius);
+  }
+}
+
 table {
   margin-bottom: 1rem;
   width: 100%;

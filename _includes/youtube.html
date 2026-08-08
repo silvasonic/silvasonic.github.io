@@ -1,0 +1,18 @@
+{%- comment -%}
+Responsive YouTube embed.
+
+  {% include youtube.html id="XCU-bA1lp5c" title="Jurassic Punk trailer" ratio="16/9" %}
+
+The wrapper carries the aspect-ratio so the space is reserved before the iframe
+loads - width/height attributes do not reliably do this for iframes the way they
+do for <img>. youtube-nocookie.com avoids setting a tracking cookie until the
+viewer actually presses play.
+{%- endcomment -%}
+<div class="video-embed" style="aspect-ratio: {{ include.ratio | default: '16/9' }};">
+  <iframe src="https://www.youtube-nocookie.com/embed/{{ include.id }}"
+          title="{{ include.title | escape }}"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+</div>
