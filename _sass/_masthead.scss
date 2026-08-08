@@ -12,6 +12,9 @@
   margin-bottom: 0;
 
   a {
+    display: inline-flex; // on the link, not the h3, so the tagline still wraps on its own
+    align-items: center;
+    gap: .5rem;
     color: inherit;
     text-decoration: none;
   }
@@ -20,4 +23,14 @@
     font-weight: 400;
     opacity: .5;
   }
+}
+
+// The global `img` rule is tuned for full-width post images; a small inline mark
+// needs three of its declarations undone.
+.masthead-logo {
+  width: 24px;
+  height: 24px; // outranks `img { height: auto }`
+  margin-bottom: 0; // cancels the inherited spacer, which would drop the header
+  flex-shrink: 0;
+  border-radius: 0;
 }
