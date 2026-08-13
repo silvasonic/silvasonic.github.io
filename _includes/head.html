@@ -2,6 +2,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  {% if site.ga_analytics %}
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.ga_analytics }}');
+  </script>
+  {% endif %}
+
   <title>
     {% if page.title == "Home" %}
       {{ site.title }}{% if site.tagline %} &mdash; {{ site.tagline }}{% endif %}
