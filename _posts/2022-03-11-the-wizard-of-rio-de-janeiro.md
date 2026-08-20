@@ -8,7 +8,7 @@ title: The Wizard of Rio de Janeiro
 
 **Update**: My brother and I ended up finding out that not only was our father a Latin GRAMMY-nominated recording engineer, but that he had actually won an award in 2011 after his passing. We contacted the Latin Recording Academy, but learned that replacement physical awards and certificates can only be requested by active industry entities or primary participants.
 
-His record—whether he cared for awards or not—stands as:
+His record — whether he cared for awards or not — stands as:
 
 **2002 Latin GRAMMY Awards**
 - Category: Album of the Year
