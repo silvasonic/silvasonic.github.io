@@ -1,10 +1,37 @@
 ---
 layout: default
-title: "404: Page not found"
+title: Not found
 permalink: 404.html
 ---
 
 <div class="page">
-  <h1 class="page-title">404: Page not found</h1>
-  <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="{{ site.baseurl }}/">Head back home</a> to try finding it again.</p>
+  <p class="lead" id="notice">That page doesn't exist, but everything published here is listed below.</p>
+  {% include archive-list.html %}
 </div>
+
+<script>
+  (function () {
+    var m = location.pathname.match(/^\/(\d{4})(?:\/(\d{2}))?(?:\/\d{2})?\/?$/);
+    if (!m) return;
+    var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var year = m[1];
+    var monthNum = m[2] ? parseInt(m[2], 10) : null;
+    var label = monthNum && months[monthNum - 1] ? months[monthNum - 1] + " " + year : year;
+    var id = null;
+    if (monthNum && months[monthNum - 1]) {
+      id = (months[monthNum - 1] + " " + year).toLowerCase().replace(" ", "-");
+    } else {
+      var headings = document.querySelectorAll("h2[id$='-" + year + "']");
+      if (headings.length) id = headings[0].id;
+    }
+    var el = id ? document.getElementById(id) : null;
+    if (el) {
+      document.getElementById("notice").innerHTML = "There's no page for that date, but here's everything from <strong>" + label + "</strong>.";
+      el.scrollIntoView();
+      history.replaceState(null, "", "/archive/#" + el.id);
+    } else {
+      document.getElementById("notice").innerHTML = "There's no page for that date, and nothing was published in <strong>" + label + "</strong>. Everything else is listed below.";
+      history.replaceState(null, "", "/archive/");
+    }
+  })();
+</script>
