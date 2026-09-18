@@ -3,10 +3,11 @@ layout: post
 title: M&A Integration Framework
 ---
 
-This was [originally posted on my LinkedIn profile](https://www.linkedin.com/posts/pablosilva_ma-integration-framework-activity-6990709749616898049-NXcs), but I’m reposting it here, now that I have a “permanent” home on the web again.
+This was originally posted on my LinkedIn profile, but I’m reposting it here, now that I have a “permanent” home on the web again.
 
-TL;DR: the original 2022 presentation I gave at [Paramount](https://www.paramount.com/) —   
-[download PDF](/assets/images/2023-06-20-ma-integration-framework.pdf)
+TL;DR: download the original 2022 presentation I gave at [Paramount](https://www.paramount.com/):   
+
+<a class="btn-download centered" href="/assets/images/2023-06-20-ma-integration-framework.pdf" download>Download PDF</a>
 
 I’ve been involved in mergers, acquisitions and divestitures most of my career – from my early days at [Turner](https://wbd.com/) during the [doomed AOL-Time Warner merger](https://www.nytimes.com/2010/01/11/business/media/11merger.html) to Paramount’s recent acquisition of [Chilevisión](https://www.chilevision.cl/) and [Fox TeleColombia](https://www.hollywoodreporter.com/business/business-news/viacomcbs-acquire-fox-telecolombia-estudios-telemexico-disney-1235038497/).
 
