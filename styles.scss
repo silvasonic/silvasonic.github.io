@@ -45,3 +45,29 @@
     margin-left: var(--spacer);
   }
 }
+
+// Flat download button, tracks link colors and dark mode
+.btn-download {
+  display: inline-block;
+  padding: .375rem .875rem;
+  font: inherit;
+  color: var(--link-color);
+  text-decoration: none;
+  background: transparent;
+  border: 1px solid var(--link-color);
+  border-radius: var(--border-radius);
+}
+
+.btn-download:hover,
+.btn-download:focus {
+  color: var(--link-hover-color);
+  border-color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+.btn-download.centered {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
