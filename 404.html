@@ -25,6 +25,7 @@ permalink: 404.html
       if (headings.length) id = headings[0].id;
     }
     var el = id ? document.getElementById(id) : null;
+    document.title = "Archive — Silvasonic";
     if (el) {
       document.getElementById("notice").innerHTML = "There's no page for that date, but here's everything from <strong>" + label + "</strong>.";
       el.scrollIntoView();
