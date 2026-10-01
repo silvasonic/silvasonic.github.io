@@ -69,8 +69,10 @@
   display: block;
   width: fit-content;
   margin-left: auto;
+  margin-right: auto;
+}
 
-  /* PDF carousel (assets/js/pdf-carousel.js) */
+/* PDF carousel (assets/js/pdf-carousel.js) */
 .pdf-carousel {
   display: flex;
   flex-direction: column;
@@ -126,5 +128,3 @@
 .pdf-carousel:fullscreen, .pdf-carousel.is-fs { margin: 0; border-radius: 0; width: 100vw; height: 100vh; height: 100dvh; }
 .pdf-carousel.is-fs { position: fixed; inset: 0; z-index: 9999; }
 .pdf-carousel:fullscreen .pdfc-stage, .pdf-carousel.is-fs .pdfc-stage { flex: 1; min-height: 0; aspect-ratio: auto !important; background: #000; }
-  margin-right: auto;
-}
