@@ -91,6 +91,7 @@ async function init(root) {
     n = Math.max(1, Math.min(total, n));
     page = n;
     range.value = n;
+    range.style.setProperty('--p', total > 1 ? `${((n - 1) / (total - 1)) * 100}%` : '100%');
     pos.textContent = `${n} / ${total}`;
     prev.hidden = n === 1;
     next.hidden = n === total;
