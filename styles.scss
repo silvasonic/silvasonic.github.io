@@ -72,7 +72,6 @@
   margin-right: auto;
 }
 
-/* PDF carousel (assets/js/pdf-carousel.js) */
 .pdf-carousel {
   display: flex;
   flex-direction: column;
@@ -118,7 +117,16 @@
 .pdfc-next { right: .75rem; }
 .pdfc-foot { display: flex; align-items: center; gap: .75rem; padding: .5rem 1rem; }
 .pdfc-pos { font-variant-numeric: tabular-nums; white-space: nowrap; }
-.pdfc-range { flex: 1; min-width: 0; margin: 0; accent-color: #fff; cursor: pointer; }
+/* Progress bar: hairline track, small thumb */
+.pdfc-range { --p: 0%; flex: 1; min-width: 0; height: 1.25rem; margin: 0; background: transparent; cursor: pointer; -webkit-appearance: none; appearance: none; }
+.pdfc-range:focus { outline: none; }
+.pdfc-range::-webkit-slider-runnable-track { height: 2px; border-radius: 1px; background: linear-gradient(to right, #fff var(--p), rgba(255, 255, 255, .25) var(--p)); }
+.pdfc-range::-moz-range-track { height: 2px; border-radius: 1px; background: rgba(255, 255, 255, .25); }
+.pdfc-range::-moz-range-progress { height: 2px; border-radius: 1px; background: #fff; }
+.pdfc-range::-webkit-slider-thumb { -webkit-appearance: none; width: 10px; height: 10px; margin-top: -4px; border: 0; border-radius: 50%; background: #fff; transition: transform .15s; }
+.pdfc-range::-moz-range-thumb { width: 10px; height: 10px; border: 0; border-radius: 50%; background: #fff; transition: transform .15s; }
+.pdfc-range:hover::-webkit-slider-thumb, .pdfc-range:focus-visible::-webkit-slider-thumb { transform: scale(1.4); }
+.pdfc-range:hover::-moz-range-thumb, .pdfc-range:focus-visible::-moz-range-thumb { transform: scale(1.4); }
 .pdfc-btn { display: grid; place-items: center; padding: .25rem; border: 0; background: none; color: #fff; cursor: pointer; }
 .pdfc-btn:hover { color: #fff; opacity: .75; }
 .pdfc-error { margin: 0; padding: 1rem; }
