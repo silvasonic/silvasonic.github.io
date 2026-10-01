@@ -69,5 +69,62 @@
   display: block;
   width: fit-content;
   margin-left: auto;
+
+  /* PDF carousel (assets/js/pdf-carousel.js) */
+.pdf-carousel {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0;
+  background: #000;
+  color: #fff;
+  border-radius: .25rem;
+  overflow: hidden;
+  line-height: 1.3;
+}
+.pdf-carousel:focus-visible { outline: 2px solid var(--link-color); outline-offset: 2px; }
+.pdfc-head { padding: .65rem 1rem; font-weight: 700; }
+.pdfc-count { font-weight: 400; opacity: .85; }
+.pdfc-stage {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 16 / 9;
+  background: #111;
+  touch-action: pan-y;
+  user-select: none;
+}
+.pdfc-stage canvas { display: block; }
+.pdfc-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, .75);
+  color: #fff;
+  cursor: pointer;
+}
+.pdfc-nav:hover { background: #000; }
+.pdfc-nav[hidden] { display: none; }
+.pdfc-prev { left: .75rem; }
+.pdfc-next { right: .75rem; }
+.pdfc-foot { display: flex; align-items: center; gap: .75rem; padding: .5rem 1rem; }
+.pdfc-pos { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.pdfc-range { flex: 1; min-width: 0; margin: 0; accent-color: #fff; cursor: pointer; }
+.pdfc-btn { display: grid; place-items: center; padding: .25rem; border: 0; background: none; color: #fff; cursor: pointer; }
+.pdfc-btn:hover { color: #fff; opacity: .75; }
+.pdfc-error { margin: 0; padding: 1rem; }
+.pdfc-error a { color: #fff; text-decoration: underline; }
+
+/* Full screen: native, plus fixed-overlay fallback for iPhone */
+.pdf-carousel:fullscreen, .pdf-carousel.is-fs { margin: 0; border-radius: 0; width: 100vw; height: 100vh; height: 100dvh; }
+.pdf-carousel.is-fs { position: fixed; inset: 0; z-index: 9999; }
+.pdf-carousel:fullscreen .pdfc-stage, .pdf-carousel.is-fs .pdfc-stage { flex: 1; min-height: 0; aspect-ratio: auto !important; background: #000; }
   margin-right: auto;
 }
