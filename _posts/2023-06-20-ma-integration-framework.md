@@ -7,7 +7,8 @@ This was originally posted on my LinkedIn profile, but I’m reposting it here, 
 
 TL;DR: download the original 2022 presentation I gave at [Paramount](https://www.paramount.com/):   
 
-<a class="btn-download centered" href="/assets/images/2023-06-20-ma-integration-framework.pdf" download>Download PDF</a>
+<div class="pdf-carousel" data-src="/assets/images/2023-06-20-ma-integration-framework.pdf" data-title="M&amp;A Integration Framework"></div>
+<script type="module" src="/assets/js/pdf-carousel.js"></script>
 
 I’ve been involved in mergers, acquisitions and divestitures most of my career – from my early days at [Turner](https://wbd.com/) during the [doomed AOL-Time Warner merger](https://www.nytimes.com/2010/01/11/business/media/11merger.html) to Paramount’s recent acquisition of [Chilevisión](https://www.chilevision.cl/) and [Fox TeleColombia](https://www.hollywoodreporter.com/business/business-news/viacomcbs-acquire-fox-telecolombia-estudios-telemexico-disney-1235038497/).
 

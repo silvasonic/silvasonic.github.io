@@ -7,7 +7,8 @@ This is a presentation I used as the backdrop for a short internal talk I gave a
 
 TL;DR: download the original presentation where I argued that running/walking/exercising was great for business: 
 
-<a class="btn-download centered" href="/assets/images/2023-06-23-why-running-is-good-for-business.pdf" download>Download PDF</a>
+<div class="pdf-carousel" data-src="/assets/images/2023-06-23-why-running-is-good-for-business.pdf" data-title="Why Running is Good for Business (Travel)"></div>
+<script type="module" src="/assets/js/pdf-carousel.js"></script>
 
 The talk was part of an internal initiative called “Wellness Champs” which is not an official Employee Resources Group at Paramount, but rather a gathering of like-minded employees organized by the Total Rewards (Human Resources) team — great work led by [Shaye McCoy](https://www.linkedin.com/in/shayemccoy/)\!
 
