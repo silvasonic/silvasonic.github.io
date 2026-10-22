@@ -2,7 +2,7 @@
   // Silvasonic Inkblot palette
   --ink: #000;
   --soft-black: #242424;
-  --off-white: #faf7f0;
+  --off-white: #fcfaf5;
   --parchment: #efdba8;
   --brick: #b94332;
   --brick-dark: #8f3025;
@@ -18,7 +18,7 @@
   --link-color: var(--brick);
   --link-hover-color: var(--brick-dark);
 
-  --heading-color: var(--ink);
+  --heading-color: #141414; // a step above the body text, softer than pure ink
   --muted-color: var(--warm-gray);
   --surface-color: var(--parchment);
 
