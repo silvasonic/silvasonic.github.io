@@ -1,6 +1,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#faf7f0" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 
   {% if site.ga_analytics %}
   <!-- Google tag (gtag.js) -->
@@ -23,7 +25,8 @@
 
   <link rel="stylesheet" href="{{ 'styles.css' | relative_url }}">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/assets/apple-touch-icon-precomposed.png' | relative_url }}">
-  <link rel="shortcut icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/favicon.ico' | relative_url }}" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ 'atom.xml' | relative_url }}">
   <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 

@@ -36,7 +36,7 @@
   display: block;
   margin-top: -.5rem;
   margin-bottom: var(--spacer);
-  color: var(--gray-600);
+  color: var(--muted-color);
 }
 
 
@@ -57,11 +57,18 @@
     margin-top: 0;
   }
 
+  // Post titles: ink, underlined on hover, like `.post-title a`
   a {
+    color: var(--heading-color);
     text-decoration: none;
 
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+
     small {
-      color: var(--gray-600);
+      color: var(--muted-color);
     }
   }
 }
