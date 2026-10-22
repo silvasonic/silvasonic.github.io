@@ -56,7 +56,7 @@ hr {
 abbr {
   font-size: 85%;
   font-weight: bold;
-  color: var(--gray-600);
+  color: var(--muted-color);
   text-transform: uppercase;
 
   &[title] {
@@ -68,7 +68,7 @@ abbr {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: var(--gray-500);
+  color: var(--muted-color);
   border-left: .25rem solid var(--border-color);
 
   p:last-child {

@@ -18,13 +18,18 @@ body {
 }
 
 // No `:visited` state is required by default (browsers will use `a`)
+// Links stay underlined so they never rely on color alone.
 a {
   color: var(--link-color);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: .15em;
 
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
     color: var(--link-hover-color);
+    text-decoration-thickness: 2px;
   }
 
   strong {
@@ -87,6 +92,6 @@ thead th {
 
 mark {
   padding: .15rem;
-  background-color: var(--yellow-100);
+  background-color: var(--surface-color);
   border-radius: .125rem;
 }
