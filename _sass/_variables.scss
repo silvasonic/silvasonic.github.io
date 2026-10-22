@@ -34,8 +34,9 @@
   --spacer-3: calc(var(--spacer) * 3);
 }
 
-// Dark mode is its own palette, not an inversion: black page, cream type and links.
-// Brick text fails contrast on black, so links stay cream and rely on the underline.
+// Dark mode is its own palette, not an inversion: black page, cream type, brick links.
+// Brick is 3.9:1 on black (a deliberate brand choice); hover lightens rather than
+// darkens, since #8f3025 would drop to 2.6:1.
 @media (prefers-color-scheme: dark) {
   :root {
     --body-color: var(--parchment);
@@ -45,8 +46,8 @@
     --muted-color: #a3977b;
     --surface-color: #1a1814;
 
-    --link-color: var(--parchment);
-    --link-hover-color: var(--parchment);
+    --link-color: var(--brick);
+    --link-hover-color: #d0604c;
 
     --border-color: #3b372f;
 
