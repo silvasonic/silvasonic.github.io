@@ -50,16 +50,16 @@
   display: flex;
   flex-direction: column;
   margin: 1.5rem 0;
-  background: #000;
-  color: #fff;
-  border-radius: .25rem;
-  border: 1px solid #000;
+  background: var(--panel-bg);
+  color: var(--heading-color);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
   overflow: hidden;
   line-height: 1.3;
 }
 .pdf-carousel:focus-visible { outline: 2px solid var(--link-color); outline-offset: 2px; }
 .pdfc-head { padding: .65rem 1rem; font-weight: 700; }
-.pdfc-count { font-weight: 400; opacity: .85; }
+.pdfc-count { font-weight: 400; color: var(--muted-color); }
 .pdfc-stage {
   position: relative;
   display: flex;
@@ -67,7 +67,7 @@
   justify-content: center;
   aspect-ratio: 16 / 9;
   max-height: 75vh;
-  background: #111;
+  background: var(--stage-bg);
   touch-action: pan-y;
   user-select: none;
 }
@@ -83,11 +83,13 @@
   padding: 0;
   border: 0;
   border-radius: 50%;
-  background: rgba(0, 0, 0, .75);
-  color: #fff;
+  // Inverted chip with a page-colored halo, so it reads over any slide
+  background: var(--heading-color);
+  color: var(--body-bg);
+  box-shadow: 0 0 0 2px var(--body-bg);
   cursor: pointer;
 }
-.pdfc-nav:hover { background: #000; }
+.pdfc-nav:hover { opacity: .85; }
 .pdfc-nav[hidden] { display: none; }
 .pdfc-prev { left: .75rem; }
 .pdfc-next { right: .75rem; }
@@ -96,19 +98,18 @@
 /* Progress bar: hairline track, small thumb */
 .pdfc-range { --p: 0%; flex: 1; min-width: 0; height: 1.25rem; margin: 0; background: transparent; cursor: pointer; -webkit-appearance: none; appearance: none; }
 .pdfc-range:focus { outline: none; }
-.pdfc-range::-webkit-slider-runnable-track { height: 2px; border-radius: 1px; background: linear-gradient(to right, #fff var(--p), rgba(255, 255, 255, .25) var(--p)); }
-.pdfc-range::-moz-range-track { height: 2px; border-radius: 1px; background: rgba(255, 255, 255, .25); }
-.pdfc-range::-moz-range-progress { height: 2px; border-radius: 1px; background: #fff; }
-.pdfc-range::-webkit-slider-thumb { -webkit-appearance: none; width: 10px; height: 10px; margin-top: -4px; border: 0; border-radius: 50%; background: #fff; transition: transform .15s; }
-.pdfc-range::-moz-range-thumb { width: 10px; height: 10px; border: 0; border-radius: 50%; background: #fff; transition: transform .15s; }
+.pdfc-range::-webkit-slider-runnable-track { height: 2px; border-radius: 1px; background: linear-gradient(to right, var(--heading-color) var(--p), var(--border-color) var(--p)); }
+.pdfc-range::-moz-range-track { height: 2px; border-radius: 1px; background: var(--border-color); }
+.pdfc-range::-moz-range-progress { height: 2px; border-radius: 1px; background: var(--heading-color); }
+.pdfc-range::-webkit-slider-thumb { -webkit-appearance: none; width: 10px; height: 10px; margin-top: -4px; border: 0; border-radius: 50%; background: var(--heading-color); transition: transform .15s; }
+.pdfc-range::-moz-range-thumb { width: 10px; height: 10px; border: 0; border-radius: 50%; background: var(--heading-color); transition: transform .15s; }
 .pdfc-range:hover::-webkit-slider-thumb, .pdfc-range:focus-visible::-webkit-slider-thumb { transform: scale(1.4); }
 .pdfc-range:hover::-moz-range-thumb, .pdfc-range:focus-visible::-moz-range-thumb { transform: scale(1.4); }
-.pdfc-btn { display: grid; place-items: center; padding: .25rem; border: 0; background: none; color: #fff; cursor: pointer; }
-.pdfc-btn:hover { color: #fff; opacity: .75; }
+.pdfc-btn { display: grid; place-items: center; padding: .25rem; border: 0; background: none; color: inherit; cursor: pointer; }
+.pdfc-btn:hover, .pdfc-btn:focus { color: inherit; opacity: .75; }
 .pdfc-error { margin: 0; padding: 1rem; }
-.pdfc-error a { color: #fff; text-decoration: underline; }
 
 /* Full screen: native, plus fixed-overlay fallback for iPhone */
 .pdf-carousel:fullscreen, .pdf-carousel.is-fs { margin: 0; border: 0; border-radius: 0; width: 100vw; height: 100vh; height: 100dvh; }
 .pdf-carousel.is-fs { position: fixed; inset: 0; z-index: 9999; }
-.pdf-carousel:fullscreen .pdfc-stage, .pdf-carousel.is-fs .pdfc-stage { flex: 1; min-height: 0; max-height: none; aspect-ratio: auto !important; background: #000; }
+.pdf-carousel:fullscreen .pdfc-stage, .pdf-carousel.is-fs .pdfc-stage { flex: 1; min-height: 0; max-height: none; aspect-ratio: auto !important; background: var(--stage-bg); }
