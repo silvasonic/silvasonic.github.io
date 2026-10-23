@@ -36,5 +36,5 @@ All in `assets/`:
 
 ## Credits
 
-Built on [Poole](https://github.com/poole/poole) by Mark Otto, released under the MIT license.
-See [LICENSE.md](LICENSE.md).
+Built on [Poole](https://github.com/poole/poole) by Mark Otto. The code is MIT-licensed; posts,
+images, PDFs and logos are all rights reserved. See [LICENSE.md](LICENSE.md).

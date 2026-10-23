@@ -1,6 +1,19 @@
-# Released under MIT License
+# License
+
+## Code
+
+The site's code is released under the MIT License below: `_layouts/`, `_includes/`, `_sass/`,
+`styles.scss`, `assets/js/`, `_scripts/`, and the HTML/XML templates at the root.
+
+## Content
+
+Everything else is © Pablo Silva. All rights reserved. That includes posts (`_posts/`), pages,
+images, video, PDFs, and the Silvasonic logos and icons. None of it is covered by the MIT License.
+
+## MIT License
 
 Copyright (c) 2013 Mark Otto.
+Copyright (c) 2026 Pablo Silva.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
