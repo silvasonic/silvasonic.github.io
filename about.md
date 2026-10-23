@@ -12,7 +12,7 @@ AI is now a core part of how I run operations, and I spend a good share of my ti
 
 Outside the day job I ship. [Ghost Gym Gear](https://gggear.app) is a community app for Ghost Gym Miami built around a catalog of vintage strength equipment, and the place where I put the current generation of AI coding tools to work on a real product. [Hydrate Stupid](https://hydratestupid.com) is a small hardware brand that started with a gallon water jug tether: I loved the jug and hated the cap, so I designed a better way to carry it.
 
-I was born and raised in Rio de Janeiro, Brazil, and I live in Coral Gables, FL, with my wife and son. I speak English, Portuguese and Spanish, in whatever order the room needs.
+I was born and raised in Rio de Janeiro, Brazil, and I live in Coral Gables, FL, with my wife, son and our golden retriever. I speak English, Portuguese and Spanish, in whatever order the room needs.
 
 Silvasonic is where I think out loud. Opinions are mine. You can also find me on [Instagram](https://www.instagram.com/silvasonic) and [GitHub](https://github.com/silvasonic).
 
