@@ -3,7 +3,7 @@
   --ink: #000;
   --soft-black: #242424;
   --off-white: #fcfaf5;
-  --parchment: #efdba8;
+  --fabric: #efdba8;
   --brick: #b94332;
   --brick-dark: #8f3025;
   --warm-gray: #65615a;
@@ -20,7 +20,7 @@
 
   --heading-color: #141414; // a step above the body text, softer than pure ink
   --muted-color: var(--warm-gray);
-  --surface-color: var(--parchment);
+  --surface-color: var(--fabric);
 
   --border-color: var(--warm-gray-200);
   --border-radius: .25rem;
@@ -39,10 +39,10 @@
 // darkens, since #8f3025 would drop to 2.6:1.
 @media (prefers-color-scheme: dark) {
   :root {
-    --body-color: var(--parchment);
+    --body-color: var(--fabric);
     --body-bg: var(--ink);
 
-    --heading-color: var(--parchment);
+    --heading-color: var(--fabric);
     --muted-color: #a3977b;
     --surface-color: #1a1814;
 
@@ -51,7 +51,7 @@
 
     --border-color: #3b372f;
 
-    --code-color: var(--parchment);
+    --code-color: var(--fabric);
     --code-bg: #1a1814;
   }
 }
