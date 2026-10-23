@@ -37,7 +37,7 @@ sass:
 
 # Options
 
-# Replace this value and uncomment to enable Google Analytics tracking
+# Google Analytics measurement ID; remove to disable tracking
 ga_analytics: G-QQ4LDX9EQF
 
 # Specify the author for blog posts
@@ -46,5 +46,3 @@ author:
   url: https://silvasonic.com
   email: pablo@silvasonic.com
 
-# Custom vars
-version: 3.0.0
