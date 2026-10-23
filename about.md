@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm Pablo Silva. I run Global Business Operations for Paramount Skydance in Latin America. The job sits where media, technology and operations meet: large-scale business transformation, M&A integration and separation work, and the AI and systems modernization that comes with running a region through a lot of change. The scorecard is savings, cost avoidance, synergies and efficiencies, delivered without breaking what already works.
+I'm Pablo Silva. I run Global Business Operations for (Paramount) Skydance in Latin America. The job sits where media, technology and operations meet: large-scale business transformation, M&A integration and separation work, and the AI and systems modernization that comes with running a region through a lot of change. The scorecard is savings, cost avoidance, synergies and efficiencies, delivered without breaking what already works.
 
 I've spent 25-plus years in media and technology, most of it at the global level. Before Paramount I worked at [Fox International Channels](https://www.fox.com/) through the [Disney](https://www.disney.com/) acquisition, at [Brightcove](https://www.brightcove.com/), at [Toolbox](https://toolboxtve.com/en/) and at [Turner](https://www.warnerbrosdiscovery.com/), with long assignments in São Paulo, Buenos Aires and London. That adds up to a lot of integrations, carve-outs, platform migrations and launches across the US, Latin America and Europe, which is the part of the work I find most interesting: taking something complicated and making it run. The full record is on [LinkedIn](https://www.linkedin.com/in/pablosilva/).
 
