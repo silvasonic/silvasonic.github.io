@@ -10,6 +10,7 @@ pre {
 
 code {
   font-size: 85%;
+  color: var(--code-color);
 }
 
 pre {
@@ -25,8 +26,15 @@ pre {
   background-color: var(--code-bg);
   border-radius: var(--border-radius);
 
+  color: var(--body-color);
+
   pre {
     margin-bottom: 0;
+  }
+
+  // Block code reads as text; only inline code takes --code-color
+  code {
+    color: inherit;
   }
 
   // Triple backticks (code fencing) doubles the .highlight elements

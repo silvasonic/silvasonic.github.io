@@ -27,6 +27,7 @@
 
   --code-font: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --code-color: var(--brick-dark);
+  --code-string-color: var(--brick-dark);
   --code-bg: #f3eee3;
 
   --spacer: 1rem;
@@ -52,6 +53,7 @@
     --border-color: #3b372f;
 
     --code-color: var(--fabric);
+    --code-string-color: #d0604c;
     --code-bg: #1a1814;
   }
 }
