@@ -37,6 +37,10 @@
   margin-top: -.5rem;
   margin-bottom: var(--spacer);
   color: var(--muted-color);
+
+  a {
+    color: inherit;
+  }
 }
 
 
