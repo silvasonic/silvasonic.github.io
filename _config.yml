@@ -6,6 +6,7 @@ paginate: 5
 paginate_path: "/page/:num/" # matches the WordPress URL shape; default is /page:num/
 baseurl: ""
 permalink: pretty
+date_format: "%B %-d, %Y" # e.g. March 3, 2026
 
 # Defaults
 defaults:
