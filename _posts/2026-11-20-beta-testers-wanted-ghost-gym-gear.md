@@ -3,7 +3,7 @@ layout: post
 title: "Beta Testers Wanted: Ghost Gym Gear"
 ---
 
-🏋️ Ghost Gym Gear is a community project: a catalog of the rare, old-school and vintage iron at [Ghost Gym Miami](https://ghostgymmiami.com). Every machine gets photos, its story and its specs.
+🏋️ [Ghost Gym Gear](https://gggear.app) is a community project: a catalog of the rare, old-school and vintage iron at [Ghost Gym Miami](https://ghostgymmiami.com). Every machine gets photos, its story and its specs.
 
 **Install**
 
