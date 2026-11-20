@@ -13,6 +13,8 @@ body {
   line-height: var(--body-line-height);
   color: var(--body-color);
   background-color: var(--body-bg);
+  // Let long unbroken strings (bare URLs) wrap instead of widening the page on phones.
+  overflow-wrap: break-word;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
