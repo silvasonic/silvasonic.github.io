@@ -19,7 +19,7 @@ title: "Beta Testers Wanted: Ghost Gym Gear"
 
 **Found a bug?**
 
-On iPhone, take a screenshot and tap **Share Beta Feedback** in TestFlight. On Android, email <support@gggear.app> or just message me. Screenshots help a lot.
+On iPhone, take a screenshot and tap **Share Beta Feedback** in TestFlight. On Android, email <support@gggear.app>. Screenshots help a lot.
 
 **The fine print**
 
